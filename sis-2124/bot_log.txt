@@ -1,0 +1,292 @@
+2023-12-24 14:02:27,067 - INFO - BEGIN (implicit)
+2023-12-24 14:02:27,067 - INFO - PRAGMA main.table_info("books")
+2023-12-24 14:02:27,067 - INFO - [raw sql] ()
+2023-12-24 14:02:27,068 - INFO - COMMIT
+2023-12-24 14:02:27,068 - INFO - BEGIN (implicit)
+2023-12-24 14:02:27,068 - INFO - PRAGMA main.table_info("persons")
+2023-12-24 14:02:27,068 - INFO - [raw sql] ()
+2023-12-24 14:02:27,069 - INFO - COMMIT
+2023-12-24 14:08:19,757 - INFO - BEGIN (implicit)
+2023-12-24 14:08:19,758 - INFO - PRAGMA main.table_info("books")
+2023-12-24 14:08:19,758 - INFO - [raw sql] ()
+2023-12-24 14:08:19,758 - INFO - PRAGMA temp.table_info("books")
+2023-12-24 14:08:19,759 - INFO - [raw sql] ()
+2023-12-24 14:08:19,759 - INFO - 
+CREATE TABLE books (
+	id INTEGER NOT NULL, 
+	title VARCHAR(50), 
+	author VARCHAR(50), 
+	genre VARCHAR(50), 
+	PRIMARY KEY (id)
+)
+
+
+2023-12-24 14:08:19,759 - INFO - [no key 0.00014s] ()
+2023-12-24 14:08:19,764 - INFO - COMMIT
+2023-12-24 14:08:19,765 - INFO - BEGIN (implicit)
+2023-12-24 14:08:19,765 - INFO - PRAGMA main.table_info("persons")
+2023-12-24 14:08:19,765 - INFO - [raw sql] ()
+2023-12-24 14:08:19,765 - INFO - PRAGMA temp.table_info("persons")
+2023-12-24 14:08:19,765 - INFO - [raw sql] ()
+2023-12-24 14:08:19,765 - INFO - 
+CREATE TABLE persons (
+	id INTEGER NOT NULL, 
+	_name VARCHAR, 
+	_uni VARCHAR, 
+	PRIMARY KEY (id)
+)
+
+
+2023-12-24 14:08:19,765 - INFO - [no key 0.00010s] ()
+2023-12-24 14:08:19,768 - INFO - COMMIT
+2023-12-24 14:10:20,561 - INFO - BEGIN (implicit)
+2023-12-24 14:10:20,561 - INFO - PRAGMA main.table_info("books")
+2023-12-24 14:10:20,561 - INFO - [raw sql] ()
+2023-12-24 14:10:20,562 - INFO - COMMIT
+2023-12-24 14:10:20,562 - INFO - BEGIN (implicit)
+2023-12-24 14:10:20,562 - INFO - PRAGMA main.table_info("persons")
+2023-12-24 14:10:20,562 - INFO - [raw sql] ()
+2023-12-24 14:10:20,562 - INFO - COMMIT
+2023-12-24 14:12:51,541 - INFO - BEGIN (implicit)
+2023-12-24 14:12:51,543 - INFO - PRAGMA main.table_info("books")
+2023-12-24 14:12:51,543 - INFO - [raw sql] ()
+2023-12-24 14:12:51,543 - INFO - COMMIT
+2023-12-24 14:12:51,544 - INFO - BEGIN (implicit)
+2023-12-24 14:12:51,544 - INFO - PRAGMA main.table_info("persons")
+2023-12-24 14:12:51,544 - INFO - [raw sql] ()
+2023-12-24 14:12:51,544 - INFO - COMMIT
+2023-12-24 14:15:22,651 - INFO - BEGIN (implicit)
+2023-12-24 14:15:22,653 - INFO - INSERT INTO persons (_name, _uni) VALUES (?, ?)
+2023-12-24 14:15:22,653 - INFO - [generated in 0.00023s] ('Zhibek', ' IITUsis')
+2023-12-24 14:15:22,657 - INFO - COMMIT
+2023-12-24 14:15:43,131 - INFO - BEGIN (implicit)
+2023-12-24 14:15:43,133 - INFO - INSERT INTO persons (_name, _uni) VALUES (?, ?)
+2023-12-24 14:15:43,133 - INFO - [cached since 20.48s ago] ('Adult', ' IITUsis')
+2023-12-24 14:15:43,135 - INFO - COMMIT
+2023-12-24 14:16:40,206 - INFO - BEGIN (implicit)
+2023-12-24 14:16:40,206 - INFO - PRAGMA main.table_info("books")
+2023-12-24 14:16:40,206 - INFO - [raw sql] ()
+2023-12-24 14:16:40,207 - INFO - PRAGMA temp.table_info("books")
+2023-12-24 14:16:40,207 - INFO - [raw sql] ()
+2023-12-24 14:16:40,207 - INFO - 
+CREATE TABLE books (
+	id INTEGER NOT NULL, 
+	title VARCHAR(50), 
+	author VARCHAR(50), 
+	genre VARCHAR(50), 
+	PRIMARY KEY (id)
+)
+
+
+2023-12-24 14:16:40,207 - INFO - [no key 0.00011s] ()
+2023-12-24 14:16:40,212 - INFO - COMMIT
+2023-12-24 14:16:40,212 - INFO - BEGIN (implicit)
+2023-12-24 14:16:40,212 - INFO - PRAGMA main.table_info("persons")
+2023-12-24 14:16:40,213 - INFO - [raw sql] ()
+2023-12-24 14:16:40,213 - INFO - PRAGMA temp.table_info("persons")
+2023-12-24 14:16:40,213 - INFO - [raw sql] ()
+2023-12-24 14:16:40,213 - INFO - 
+CREATE TABLE persons (
+	id INTEGER NOT NULL, 
+	_name VARCHAR, 
+	_uni VARCHAR, 
+	PRIMARY KEY (id)
+)
+
+
+2023-12-24 14:16:40,213 - INFO - [no key 0.00009s] ()
+2023-12-24 14:16:40,216 - INFO - COMMIT
+2023-12-24 14:16:47,560 - INFO - BEGIN (implicit)
+2023-12-24 14:16:47,560 - INFO - PRAGMA main.table_info("books")
+2023-12-24 14:16:47,560 - INFO - [raw sql] ()
+2023-12-24 14:16:47,561 - INFO - COMMIT
+2023-12-24 14:16:47,562 - INFO - BEGIN (implicit)
+2023-12-24 14:16:47,562 - INFO - PRAGMA main.table_info("persons")
+2023-12-24 14:16:47,563 - INFO - [raw sql] ()
+2023-12-24 14:16:47,563 - INFO - COMMIT
+2023-12-24 14:16:56,532 - INFO - BEGIN (implicit)
+2023-12-24 14:16:56,533 - INFO - INSERT INTO persons (_name, _uni) VALUES (?, ?)
+2023-12-24 14:16:56,533 - INFO - [generated in 0.00021s] ('Zhibek', ' IITUsis')
+2023-12-24 14:16:56,536 - INFO - COMMIT
+2023-12-24 14:17:25,900 - INFO - BEGIN (implicit)
+2023-12-24 14:17:25,900 - INFO - INSERT INTO persons (_name, _uni) VALUES (?, ?)
+2023-12-24 14:17:25,901 - INFO - [cached since 29.37s ago] ('Adilet', ' IITUsis')
+2023-12-24 14:17:25,903 - INFO - COMMIT
+2023-12-24 14:17:34,241 - INFO - BEGIN (implicit)
+2023-12-24 14:17:34,241 - INFO - INSERT INTO persons (_name, _uni) VALUES (?, ?)
+2023-12-24 14:17:34,242 - INFO - [cached since 37.71s ago] ('Aruzhan', ' IITUsis')
+2023-12-24 14:17:34,243 - INFO - COMMIT
+2023-12-24 14:19:45,626 - INFO - BEGIN (implicit)
+2023-12-24 14:19:45,628 - INFO - INSERT INTO books (title, author, genre) VALUES (?, ?, ?)
+2023-12-24 14:19:45,628 - INFO - [generated in 0.00055s] ('Abay zholy', ' Auezov', ' roman')
+2023-12-24 14:19:45,631 - INFO - COMMIT
+2023-12-24 14:21:38,848 - INFO - BEGIN (implicit)
+2023-12-24 14:21:38,848 - INFO - PRAGMA main.table_info("books")
+2023-12-24 14:21:38,848 - INFO - [raw sql] ()
+2023-12-24 14:21:38,849 - INFO - COMMIT
+2023-12-24 14:21:38,849 - INFO - BEGIN (implicit)
+2023-12-24 14:21:38,849 - INFO - PRAGMA main.table_info("persons")
+2023-12-24 14:21:38,850 - INFO - [raw sql] ()
+2023-12-24 14:21:38,850 - INFO - COMMIT
+2023-12-24 14:25:10,249 - INFO - BEGIN (implicit)
+2023-12-24 14:25:10,250 - INFO - INSERT INTO books (title, author, genre) VALUES (?, ?, ?)
+2023-12-24 14:25:10,251 - INFO - [generated in 0.00021s] ('Alchemist', ' Paulo Coelho', ' roman')
+2023-12-24 14:25:10,252 - INFO - COMMIT
+2023-12-24 14:29:14,512 - INFO - BEGIN (implicit)
+2023-12-24 14:29:14,512 - INFO - PRAGMA main.table_info("books")
+2023-12-24 14:29:14,512 - INFO - [raw sql] ()
+2023-12-24 14:29:14,513 - INFO - COMMIT
+2023-12-24 14:29:14,513 - INFO - BEGIN (implicit)
+2023-12-24 14:29:14,513 - INFO - PRAGMA main.table_info("persons")
+2023-12-24 14:29:14,513 - INFO - [raw sql] ()
+2023-12-24 14:29:14,514 - INFO - COMMIT
+2023-12-24 14:35:10,626 - INFO - BEGIN (implicit)
+2023-12-24 14:35:10,631 - INFO - INSERT INTO books (title, author, genre) VALUES (?, ?, ?)
+2023-12-24 14:35:10,631 - INFO - [generated in 0.00027s] ('all the flowers of Paris', ' Sarah Jio', ' roman')
+2023-12-24 14:35:26,651 - INFO - BEGIN (implicit)
+2023-12-24 14:35:26,651 - INFO - PRAGMA main.table_info("books")
+2023-12-24 14:35:26,651 - INFO - [raw sql] ()
+2023-12-24 14:35:26,652 - INFO - COMMIT
+2023-12-24 14:35:26,652 - INFO - BEGIN (implicit)
+2023-12-24 14:35:26,652 - INFO - PRAGMA main.table_info("persons")
+2023-12-24 14:35:26,652 - INFO - [raw sql] ()
+2023-12-24 14:35:26,653 - INFO - COMMIT
+2023-12-24 14:35:39,111 - INFO - BEGIN (implicit)
+2023-12-24 14:35:39,113 - INFO - INSERT INTO books (title, author, genre) VALUES (?, ?, ?)
+2023-12-24 14:35:39,113 - INFO - [generated in 0.00032s] ('all the flowers of paris', ' Sarah Jio', ' roman')
+2023-12-24 14:35:39,115 - INFO - COMMIT
+2023-12-24 14:36:30,003 - INFO - BEGIN (implicit)
+2023-12-24 14:36:30,006 - INFO - SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.genre AS books_genre 
+FROM books
+2023-12-24 14:36:30,006 - INFO - [generated in 0.00028s] ()
+2023-12-24 14:36:30,140 - INFO - COMMIT
+2023-12-24 14:38:50,158 - INFO - BEGIN (implicit)
+2023-12-24 14:38:50,158 - INFO - PRAGMA main.table_info("books")
+2023-12-24 14:38:50,159 - INFO - [raw sql] ()
+2023-12-24 14:38:50,159 - INFO - COMMIT
+2023-12-24 14:38:50,159 - INFO - BEGIN (implicit)
+2023-12-24 14:38:50,159 - INFO - PRAGMA main.table_info("persons")
+2023-12-24 14:38:50,159 - INFO - [raw sql] ()
+2023-12-24 14:38:50,160 - INFO - COMMIT
+2023-12-24 23:27:38,567 - INFO - BEGIN (implicit)
+2023-12-24 23:27:38,567 - INFO - PRAGMA main.table_info("books")
+2023-12-24 23:27:38,567 - INFO - [raw sql] ()
+2023-12-24 23:27:38,570 - INFO - COMMIT
+2023-12-24 23:27:38,570 - INFO - BEGIN (implicit)
+2023-12-24 23:27:38,570 - INFO - PRAGMA main.table_info("persons")
+2023-12-24 23:27:38,570 - INFO - [raw sql] ()
+2023-12-24 23:27:38,571 - INFO - COMMIT
+2023-12-24 23:28:35,741 - INFO - BEGIN (implicit)
+2023-12-24 23:28:35,741 - INFO - PRAGMA main.table_info("books")
+2023-12-24 23:28:35,741 - INFO - [raw sql] ()
+2023-12-24 23:28:35,742 - INFO - COMMIT
+2023-12-24 23:28:35,742 - INFO - BEGIN (implicit)
+2023-12-24 23:28:35,742 - INFO - PRAGMA main.table_info("persons")
+2023-12-24 23:28:35,743 - INFO - [raw sql] ()
+2023-12-24 23:28:35,743 - INFO - COMMIT
+2023-12-24 23:29:02,514 - INFO - BEGIN (implicit)
+2023-12-24 23:29:02,515 - INFO - PRAGMA main.table_info("books")
+2023-12-24 23:29:02,515 - INFO - [raw sql] ()
+2023-12-24 23:29:02,515 - INFO - COMMIT
+2023-12-24 23:29:02,516 - INFO - BEGIN (implicit)
+2023-12-24 23:29:02,516 - INFO - PRAGMA main.table_info("persons")
+2023-12-24 23:29:02,516 - INFO - [raw sql] ()
+2023-12-24 23:29:02,516 - INFO - COMMIT
+2023-12-24 23:30:02,015 - INFO - BEGIN (implicit)
+2023-12-24 23:30:02,015 - INFO - PRAGMA main.table_info("books")
+2023-12-24 23:30:02,015 - INFO - [raw sql] ()
+2023-12-24 23:30:02,016 - INFO - COMMIT
+2023-12-24 23:30:02,016 - INFO - BEGIN (implicit)
+2023-12-24 23:30:02,016 - INFO - PRAGMA main.table_info("persons")
+2023-12-24 23:30:02,016 - INFO - [raw sql] ()
+2023-12-24 23:30:02,016 - INFO - COMMIT
+2023-12-24 23:30:27,240 - INFO - BEGIN (implicit)
+2023-12-24 23:30:27,240 - INFO - PRAGMA main.table_info("books")
+2023-12-24 23:30:27,240 - INFO - [raw sql] ()
+2023-12-24 23:30:27,241 - INFO - COMMIT
+2023-12-24 23:30:27,241 - INFO - BEGIN (implicit)
+2023-12-24 23:30:27,241 - INFO - PRAGMA main.table_info("persons")
+2023-12-24 23:30:27,241 - INFO - [raw sql] ()
+2023-12-24 23:30:27,241 - INFO - COMMIT
+2023-12-24 23:30:56,243 - INFO - BEGIN (implicit)
+2023-12-24 23:30:56,243 - INFO - PRAGMA main.table_info("books")
+2023-12-24 23:30:56,243 - INFO - [raw sql] ()
+2023-12-24 23:30:56,244 - INFO - COMMIT
+2023-12-24 23:30:56,244 - INFO - BEGIN (implicit)
+2023-12-24 23:30:56,244 - INFO - PRAGMA main.table_info("persons")
+2023-12-24 23:30:56,244 - INFO - [raw sql] ()
+2023-12-24 23:30:56,244 - INFO - COMMIT
+2023-12-24 23:31:18,449 - INFO - BEGIN (implicit)
+2023-12-24 23:31:18,450 - INFO - PRAGMA main.table_info("books")
+2023-12-24 23:31:18,450 - INFO - [raw sql] ()
+2023-12-24 23:31:18,451 - INFO - COMMIT
+2023-12-24 23:31:18,451 - INFO - BEGIN (implicit)
+2023-12-24 23:31:18,451 - INFO - PRAGMA main.table_info("persons")
+2023-12-24 23:31:18,451 - INFO - [raw sql] ()
+2023-12-24 23:31:18,451 - INFO - COMMIT
+2023-12-24 23:31:52,912 - INFO - BEGIN (implicit)
+2023-12-24 23:31:52,912 - INFO - PRAGMA main.table_info("books")
+2023-12-24 23:31:52,912 - INFO - [raw sql] ()
+2023-12-24 23:31:52,913 - INFO - COMMIT
+2023-12-24 23:31:52,913 - INFO - BEGIN (implicit)
+2023-12-24 23:31:52,913 - INFO - PRAGMA main.table_info("persons")
+2023-12-24 23:31:52,913 - INFO - [raw sql] ()
+2023-12-24 23:31:52,914 - INFO - COMMIT
+2023-12-24 23:33:14,777 - INFO - BEGIN (implicit)
+2023-12-24 23:33:14,778 - INFO - PRAGMA main.table_info("books")
+2023-12-24 23:33:14,778 - INFO - [raw sql] ()
+2023-12-24 23:33:14,779 - INFO - COMMIT
+2023-12-24 23:33:14,779 - INFO - BEGIN (implicit)
+2023-12-24 23:33:14,779 - INFO - PRAGMA main.table_info("persons")
+2023-12-24 23:33:14,779 - INFO - [raw sql] ()
+2023-12-24 23:33:14,779 - INFO - COMMIT
+2023-12-24 23:35:54,211 - INFO - BEGIN (implicit)
+2023-12-24 23:35:54,212 - INFO - PRAGMA main.table_info("books")
+2023-12-24 23:35:54,212 - INFO - [raw sql] ()
+2023-12-24 23:35:54,212 - INFO - COMMIT
+2023-12-24 23:35:54,213 - INFO - BEGIN (implicit)
+2023-12-24 23:35:54,213 - INFO - PRAGMA main.table_info("persons")
+2023-12-24 23:35:54,213 - INFO - [raw sql] ()
+2023-12-24 23:35:54,213 - INFO - COMMIT
+2023-12-25 08:12:07,204 - INFO - BEGIN (implicit)
+2023-12-25 08:12:07,204 - INFO - PRAGMA main.table_info("books")
+2023-12-25 08:12:07,204 - INFO - [raw sql] ()
+2023-12-25 08:12:07,207 - INFO - COMMIT
+2023-12-25 08:12:07,207 - INFO - BEGIN (implicit)
+2023-12-25 08:12:07,207 - INFO - PRAGMA main.table_info("persons")
+2023-12-25 08:12:07,207 - INFO - [raw sql] ()
+2023-12-25 08:12:07,208 - INFO - COMMIT
+2023-12-25 08:13:39,295 - INFO - BEGIN (implicit)
+2023-12-25 08:13:39,297 - INFO - INSERT INTO persons (_name, _uni) VALUES (?, ?)
+2023-12-25 08:13:39,298 - INFO - [generated in 0.00062s] ('Zhibek', ' IITU23')
+2023-12-25 08:13:39,302 - INFO - COMMIT
+2023-12-25 08:16:21,911 - INFO - BEGIN (implicit)
+2023-12-25 08:16:21,912 - INFO - INSERT INTO books (title, author, genre) VALUES (?, ?, ?)
+2023-12-25 08:16:21,912 - INFO - [generated in 0.00027s] ('King Kong', ' Anthony Browne', ' fantasy')
+2023-12-25 08:16:21,916 - INFO - COMMIT
+2023-12-25 08:17:09,732 - INFO - BEGIN (implicit)
+2023-12-25 08:17:09,735 - INFO - SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.genre AS books_genre 
+FROM books
+2023-12-25 08:17:09,735 - INFO - [generated in 0.00032s] ()
+2023-12-25 08:17:09,949 - INFO - COMMIT
+2023-12-25 08:22:34,811 - INFO - BEGIN (implicit)
+2023-12-25 08:22:34,812 - INFO - PRAGMA main.table_info("books")
+2023-12-25 08:22:34,812 - INFO - [raw sql] ()
+2023-12-25 08:22:34,812 - INFO - COMMIT
+2023-12-25 08:22:34,813 - INFO - BEGIN (implicit)
+2023-12-25 08:22:34,813 - INFO - PRAGMA main.table_info("persons")
+2023-12-25 08:22:34,813 - INFO - [raw sql] ()
+2023-12-25 08:22:34,813 - INFO - COMMIT
+2023-12-25 08:23:13,675 - INFO - BEGIN (implicit)
+2023-12-25 08:23:13,679 - INFO - SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.genre AS books_genre 
+FROM books
+2023-12-25 08:23:13,679 - INFO - [generated in 0.00033s] ()
+2023-12-25 08:23:13,982 - INFO - COMMIT
+2023-12-25 08:47:07,733 - INFO - BEGIN (implicit)
+2023-12-25 08:47:07,733 - INFO - PRAGMA main.table_info("books")
+2023-12-25 08:47:07,734 - INFO - [raw sql] ()
+2023-12-25 08:47:07,734 - INFO - COMMIT
+2023-12-25 08:47:07,735 - INFO - BEGIN (implicit)
+2023-12-25 08:47:07,735 - INFO - PRAGMA main.table_info("persons")
+2023-12-25 08:47:07,735 - INFO - [raw sql] ()
+2023-12-25 08:47:07,735 - INFO - COMMIT
